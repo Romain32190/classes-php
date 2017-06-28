@@ -1,6 +1,6 @@
 <?php
 
-class products{
+class Products{
   private  $_id = 1;
   private  $_name = 'fraise';
   private  $_price = 1.35;
