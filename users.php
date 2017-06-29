@@ -1,5 +1,5 @@
 <?php
-require('Client.php');
+require_once 'Client.php';
 ?>
 
 <?php

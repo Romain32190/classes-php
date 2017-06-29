@@ -1,8 +1,8 @@
 <?php
 
-require('Product.php');
+require_once'Product.php';
 
-class Cloth extends Products{
+class Cloth extends Product{
   private $_brand;
 
   public function try(){
