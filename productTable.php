@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
   <meta charset="utf-8">
   <title></title>
 </head>
 <body>
-  <table border="solid;">
+<div class="container">
+  <table>
     <thead>
       <th>ProductorName</th>
       <th>ExpiresAt</th>
@@ -26,7 +28,7 @@
       ?>
     </tbody>
   </table>
-    <table border="solid;">
+    <table>
       <thead>
         <th>idP</th>
         <th>name</th>
@@ -42,6 +44,6 @@
         ?>
       </tbody>
     </table>
-
+</div>
 </body>
 </html>
