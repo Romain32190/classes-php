@@ -3,20 +3,20 @@
 <?php
 require_once 'Product.php';
 class Vegetable extends Product{
-  private $_productorName = "Bianchi";
-  private $_expiresAt = 50;
+  private $_productorName;
+  private $_expiresAt;
 
   public function get_productorName(){
-    return $this -> _productorName;
+    return $this ->_productorName;
   }
   public function set_productorName($_productorName){
-    return $this -> $_productorName = $_productorName;
+    return $this ->_productorName = $_productorName;
   }
   public function get_expiresAt(){
-    return $this -> _expiresAt;
+    return $this ->_expiresAt;
   }
   public function set_expiresAt($_expiresAt){
-    return $this -> $_expiresAt = $_expireAt;
+    return $this ->_expiresAt = $_expiresAt;
   }
 
 

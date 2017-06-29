@@ -5,7 +5,7 @@
   <title></title>
 </head>
 <body>
-  <table>
+  <table border="solid;">
     <thead>
       <th>ProductorName</th>
       <th>ExpiresAt</th>
@@ -14,6 +14,7 @@
       <th>Id</th>
     </thead>
     <tbody>
+      <h1>Tableau Vegetable</h1>
 
       <?php
       require_once 'products.php';
@@ -24,8 +25,23 @@
 
       ?>
     </tbody>
-
   </table>
+    <table border="solid;">
+      <thead>
+        <th>idP</th>
+        <th>name</th>
+        <th>price</th>
+        <th>brand</th>
+      </thead>
+      <tbody>
+        <h1>Tableau Cloth</h1>
+        <?php
+          foreach($products[1] as $product){
+            echo '<tr><td>'.$product->get_id().'</td><td>'.$product->get_name().'</td><td>'.$product->get_price().'</td><td>'.$product->get_brand().'</td></tr>';
+          }
+        ?>
+      </tbody>
+    </table>
 
 </body>
 </html>
